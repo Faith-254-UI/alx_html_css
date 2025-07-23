@@ -1,2 +1,73 @@
-/* Import Normalize.css */
+/* Import Normalize and Google Fonts */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+/* Header Section */
+header {
+  background-color: #000;
+  padding: 20px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Banner Section */
+main > section:first-of-type {
+  background-image: url('./images/background.png'); /* replace with your actual background if needed */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px 50px;
+}
+
+main h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+main span {
+  display: inline-block;
+  margin: 5px 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+main button {
+  background-color: #C271FF;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
