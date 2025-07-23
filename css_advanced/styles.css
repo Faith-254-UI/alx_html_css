@@ -187,3 +187,98 @@ main button {
     margin: 0 auto;
   }
 }
+/* Videos List Section */
+.videos-list {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.videos-list h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--color-text-primary, #333);
+}
+
+/* Container for cards */
+.video-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Individual video card */
+.video-card {
+  background-color: var(--color-white, #fff);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #333;
+}
+
+/* Thumbnail image */
+.video-card img:first-child {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Title and description */
+.video-card h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.video-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Instructor info container */
+.instructor-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.instructor-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.instructor-info h4 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Stars */
+.stars {
+  color: #f9b700; /* gold star color */
+  font-size: 1rem;
+}
+
+/* Video length text */
+.video-length {
+  font-size: 0.9rem;
+  color: #999;
+  font-weight: 600;
+  margin-top: auto; /* Push length to bottom if possible */
+  align-self: flex-end;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .video-cards {
+    grid-template-columns: 1fr;
+  }
+}
