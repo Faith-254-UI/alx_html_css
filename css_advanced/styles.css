@@ -407,3 +407,48 @@ main button {
     padding: var(--spacing-sm);
   }
 }
+/* ===========================
+   Footer Section
+   =========================== */
+footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: var(--spacing-lg) var(--spacing-lg);
+}
+
+footer section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+footer img {
+  height: 40px;
+}
+
+footer div {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+footer div i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: var(--color-white);
+}
+
+footer div i:hover {
+  color: var(--color-primary);
+}
+
+footer p {
+  font-size: var(--font-size-small);
+  margin: 0;
+  opacity: var(--opacity-light);
+}
