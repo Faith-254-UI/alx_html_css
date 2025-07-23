@@ -1,80 +1,73 @@
-# Nairobi Intranet – CSS Advanced Project
+# CSS Advanced – SmileSchool Layout
 
-This is a continuation of the **HTML, advanced** project and focuses on applying **advanced CSS** techniques to style a professional intranet web page based on the [Figma design file](https://www.figma.com) provided in the ALX curriculum.
+This project is based on the **HTML, advanced** concept page provided by ALX, and continues into styling with **advanced CSS techniques**. The base HTML represents a fictional platform called **SmileSchool**, which teaches people how to smile like pros!
 
-## 📁 Project Directory
+The focus of this task is setting up the HTML structure and preparing all resources for styling.
 
-```
+---
+
+## 📁 Project Structure
+
 alx_html_css/
 └── css_advanced/
-    ├── index.html
-    ├── styles.css
-    └── README.md
-```
+├── index.html
+├── styles.css
+├── README.md
+└── images/
+├── logo.png
+├── 1.png
+├── 6.png
+├── 7.png
+├── 8.png
+├── Bitmap.png
+├── Bitmap1.png
+└── smile.svg
+
+---
 
 ## 🎯 Objectives
 
-- Apply advanced CSS techniques: Flexbox, Grid, animations, variables, etc.
-- Replicate a professional layout based on a Figma mockup.
-- Implement a responsive and accessible design.
+- Use the HTML provided in the **HTML, advanced** concept page as the starting point
+- Prepare all necessary image files (logo, profile photos, icons)
+- Link all required external assets (fonts, icons)
+- Write a professional `README.md` file
+- Ensure the HTML page opens correctly in the browser
 
-## 🛠️ Technologies Used
+---
+
+## 🎨 Design
+
+- The final design can be viewed on **Figma**  
+- Make sure to duplicate the file to your own account:
+  - [Figma File – SmileSchool UI](https://www.figma.com) *(link available via ALX portal)*
+
+- Fonts:
+  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+  - [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
+
+> **Note:** Some measurements in the Figma are floats. Rounding is acceptable.
+
+---
+
+## 🧠 Tech Used
 
 - HTML5
-- CSS3
-- Normalize.css (browser consistency)
-- Font Awesome (icons)
-- Google Fonts (typography)
+- Font Awesome for icons
+- Google Fonts
+- (CSS will be added starting from Task 1)
 
-## 📷 Design Reference
+---
 
-The full design mockup is available on **Figma**. Be sure to duplicate it to your drafts:
+## 🖼 Assets
 
-- [📐 View Figma File](https://www.figma.com) *(Log in required)*
-- Download fonts:
-  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-  - [Spin Cycle OT (custom font)](https://www.fonts.com/font/spin-cycle)
+All images and icons used in this project are located in the `images/` folder and were provided by ALX or replaced with temporary placeholders for development.
 
-> **Note:** Some values in the Figma design are floats; rounding is acceptable.
-
-## 🧩 Project Sections
-
-This project consists of the following sections:
-
-1. Header and Banner
-2. Quotes
-3. Videos List
-4. Membership
-5. FAQ
-6. Footer
-
-Each section will be styled with accurate spacing, colors, images, and layout as shown in the Figma file.
-
-## 📷 Assets
-
-Download the images for this project from the ALX portal (linked in the original assignment). Use them in the correct sections:
-- Logos
-- Banners
-- Icons
-- Thumbnails
+---
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Open `index.html` in a browser
-3. Edit `styles.css` to apply design styles
-4. Push your changes to GitHub
+To run this project locally:
 
----
-
-## 👩‍💻 Author
-
-**Niva Faith** – ALX Student
-
----
-
-## 🔗 GitHub Repository
-
-[GitHub Repo: alx_html_css](https://github.com/Faith-254-UI/alx_html_css)
-
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Faith-254-UI/alx_html_css
