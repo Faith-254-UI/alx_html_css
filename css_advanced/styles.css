@@ -282,3 +282,73 @@ main button {
     grid-template-columns: 1fr;
   }
 }
+.membership {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--spacing-lg) var(--spacing-sm);
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-lg);
+}
+
+.membership > div {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-lg);
+}
+
+.membership > div > div {
+  max-width: 250px;
+  text-align: center;
+}
+
+.membership img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.membership h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.membership p {
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  opacity: var(--opacity-light);
+  margin: 0;
+}
+
+/* Button */
+.membership button {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: var(--border-radius-pill);
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.membership button:hover {
+  background-color: #b164e6; /* Slightly darker purple */
+  color: var(--color-white);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .membership > div {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+}
