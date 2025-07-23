@@ -39,7 +39,7 @@ alx_html_css/
 
 - The final design can be viewed on **Figma**  
 - Make sure to duplicate the file to your own account:
-  - [Figma File – SmileSchool UI](https://www.figma.com) *(link available via ALX portal)*
+  - [Figma File – SmileSchool UI](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&p=f&t=CIzfn6tHcp5V2hcN-0) *(link available via ALX portal)*
 
 - Fonts:
   - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
