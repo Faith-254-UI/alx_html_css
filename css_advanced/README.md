@@ -1,4 +1,6 @@
-![Homepage Screenshot](Homepage.jpeg)
+<p align="center">
+  <img src="Homepage.jpeg" alt="Homepage Screenshot" width="600"/>
+</p>
 
 ---
 
