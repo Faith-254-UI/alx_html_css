@@ -1,4 +1,7 @@
-![Homepage Screenshot](Homepage.jpeg)
+<p align="center">
+  <img src="css_advanced/Homepage.jpeg" alt="Homepage Screenshot" width="100%"/>
+</p>
+
 
 ---
 
