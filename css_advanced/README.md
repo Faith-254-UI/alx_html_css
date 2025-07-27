@@ -1,60 +1,121 @@
-# CSS Advanced – SmileSchool Layout
-
-This project is based on the **HTML, advanced** concept page provided by ALX, and continues into styling with **advanced CSS techniques**. The base HTML represents a fictional platform called **SmileSchool**, which teaches people how to smile like pros!
-
-The focus of this task is setting up the HTML structure and preparing all resources for styling.
+![Homepage Screenshot](Homepage.jpeg)
 
 ---
 
-## 📁 Project Structure
+# 😁 SmileSchool – Advanced CSS Project
 
+## 📘 Project Overview  
+**SmileSchool** is a fictional, visually engaging landing page built with **HTML5** and **CSS3**. It showcases a fun platform where users can learn how to smile through expert-led video tutorials. The project highlights modern layout techniques using Flexbox, semantic HTML, and responsive design inspired by a high-fidelity Figma design.
+
+---
+
+## 🚀 Features
+
+✅ **Navigation Bar**  
+📌 A responsive header featuring:
+- 🔗 Logo (placeholder image)
+- 📂 Navigation links: **Courses**, **Pricing**, and **Login**
+
+✅ **Hero Section**  
+🎯 Eye-catching introductory section that includes:
+- 🧠 Bold headline: **"Get schooled"**
+- 🔤 Rotating keywords: **SMILES**, **GRIN**, **LAUGH**
+- 🆓 Call-to-action button: **"REGISTER FOR FREE"**
+
+✅ **Expert Testimonials**  
+🧑‍🏫 Learn from top smile professionals:
+- 🖼️ 4 expert profile cards with:
+  - 📸 Photos
+  - 🏆 Awards and titles like *"Smile of the Year"*
+
+✅ **Featured Quote Section**  
+💬 A compelling testimonial with:
+- 🎙️ Quote text
+- 🙋‍♂️ User name and title
+- 🖼️ Supporting image
+
+✅ **Popular Tutorials Section**  
+📺 A 4-card grid of the most popular tutorials:
+- 🖼️ Video thumbnails with titles and descriptions
+- 👤 Author info with image
+- ⭐ Star rating (Font Awesome)
+- ⏱️ Duration (e.g., *8 min*)
+
+✅ **Free Membership Benefits**  
+🎁 Highlights of joining SmileSchool for free:
+- 🧩 Four feature cards with smile icons and brief descriptions
+- 🆓 Secondary CTA: **"REGISTER FOR FREE"**
+
+✅ **FAQ Section**  
+❓ A detailed, two-column FAQ layout:
+- Covers frequently asked questions
+- Uses semantic HTML for clarity and structure
+
+✅ **Footer**  
+🔚 Contains:
+- 🖼️ Logo
+- 🌐 Social media icons (Facebook, Twitter, Instagram)
+- 📅 Copyright
+
+---
+
+## 📁 Folder Structure
+
+```bash
 alx_html_css/
 └── css_advanced/
-├── index.html
-├── styles.css
-├── README.md
-└── images/
-├── logo.png
-├── 1.png
-├── 6.png
-├── 7.png
-├── 8.png
-├── Bitmap.png
-├── Bitmap1.png
-└── smile.svg
+    ├── index.html              # Main HTML file for the landing page
+    ├── styles.css              # Main stylesheet
+    ├── Homepage.jpeg           # Screenshot of the final design
+    ├── images/                 # All image assets
+    │   ├── logo.png
+    │   ├── 1.png
+    │   ├── 6.png
+    │   ├── 7.png
+    │   ├── 8.png
+    │   ├── Bitmap.png
+    │   ├── Bitmap1.png
+    │   └── smile.svg
+    └── README.md
+```
 
 ---
 
-## 🎯 Objectives
+## 📌 Objectives
 
-- Use the HTML provided in the **HTML, advanced** concept page as the starting point
-- Prepare all necessary image files (logo, profile photos, icons)
-- Link all required external assets (fonts, icons)
-- Write a professional `README.md` file
-- Ensure the HTML page opens correctly in the browser
-
----
-
-## 🎨 Design
-
-- The final design can be viewed on **Figma**  
-- Make sure to duplicate the file to your own account:
-  - [Figma File – SmileSchool UI](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&p=f&t=CIzfn6tHcp5V2hcN-0) *(link available via ALX portal)*
-
-- Fonts:
-  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-  - [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
-
-> **Note:** Some measurements in the Figma are floats. Rounding is acceptable.
+- Recreate a webpage from a professional Figma design.
+- Use semantic HTML5 and modern CSS3 (Flexbox, Grid).
+- Make the layout clean and visually appealing.
+- Integrate fonts, images, and icons to reflect the design spec.
 
 ---
 
-## 🧠 Tech Used
+## 🖌️ Design Source
 
-- HTML5
-- Font Awesome for icons
-- Google Fonts
-- (CSS will be added starting from Task 1)
+* **Figma Page:** [Access Design in Figma](https://savanna.alxafrica.com/rltoken/Jc_2Nl9nkKxA8XDcgOIZbA)
+* 📤 Duplicate to Drafts for full access to styles and assets.
+
+**Fonts used:**
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
+
+---
+
+## 🧠 Technologies Used
+
+- 💻 HTML5 (semantic markup)
+- 🎨 CSS3 (Flexbox, responsive design)
+- 🔤 Google Fonts
+- 🎨 Figma (UI/UX design reference)
+- ⭐ Font Awesome (icons)
+
+---
+
+## 💡 Notes
+
+- Some measurements from Figma may be in decimal (e.g., `32.13px`) — rounding is acceptable.
+- Images are placeholders; feel free to replace them with actual assets.
+- The `index.html` was adapted from the original “HTML Advanced” project.
 
 ---
 
@@ -69,5 +130,21 @@ All images and icons used in this project are located in the `images/` folder an
 To run this project locally:
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/Faith-254-UI/alx_html_css
+   git clone https://github.com/Faith-254-UI/alx_html_css.git
+   cd alx_html_css/css_advanced
+   ```
+
+2. Make sure all images and fonts are placed in their respective folders.
+
+3. Open `index.html` in your preferred browser to view the site.
+
+---
+
+## 👨‍💻 Author
+
+This project was built as part of the **ALX Software Engineering Program**.  
+Developed with 💙 by **Niva Faith** using **HTML & CSS**.
+
+---
