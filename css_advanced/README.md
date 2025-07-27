@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="css_advanced/Homepage.jpeg" alt="Homepage Screenshot" style="width:100%; max-width:100%; display:block; margin: 0 auto;" />
-
+  <img src="css_advanced/Homepage.jpeg" alt="Homepage Screenshot" width="600"/>
 </p>
+
 
 ---
 
