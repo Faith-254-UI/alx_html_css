@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="Homepage.jpeg" alt="Homepage Screenshot" width="100%" />
+  <img src="Homepage.jpeg" alt="Homepage Screenshot" width="800"/>
 </p>
+
 
 
 ---
