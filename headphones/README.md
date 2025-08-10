@@ -15,7 +15,8 @@ This project is a fully responsive landing page for a fictional Headphones brand
 The original design was created by Nicolas Philippot.  
 You can access and duplicate the design here:
 
-🔗 [Figma File – Headphones UI](https://www.figma.com/design/H6yFrKn2jJtdnM7mmzBlAL/a5366bbd595c643993665e2a28909370a7e12c66?node-id=0-1&p=f&t=zCMp9bFL0CHfwaO9-0)
+[🎨 Figma File – Headphones UI](<https://www.figma.com/design/H6yFrKn2jJtdnM7mmzBlAL/a5366bbd595c643993665e2a28909370a7e12c66?node-id=0-1&m=dev&t=sE9mMkFsROjhxUWo-1>)
+
 
 📥 Remember to “Duplicate to your Drafts” to inspect dimensions, colors, spacing, and components.
 
